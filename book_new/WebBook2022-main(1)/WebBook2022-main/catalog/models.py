@@ -115,11 +115,6 @@ class BookInstance(models.Model):
     def get_status_display(self):
         return self.status
 
-    def s(self):
-        if self.status == 1:
-            s += self.weight
-        return s
-
     def get_s(self):
         return self.s
 
